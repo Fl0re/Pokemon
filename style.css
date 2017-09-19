@@ -1,0 +1,100 @@
+html, body{
+    height: 100%
+}
+
+body{
+   
+    display:flex;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    background-color: #930909;
+}
+#maps{ width:60%;
+     height:100%;   
+     border-right: 1px solid black;
+     border-left: 1px solid black;
+   
+}
+
+#info{width:30%
+}
+
+#poke{ position:fixed;
+  
+
+}
+.pokemon{
+    
+    position: fixed;
+  
+    width:50px;
+    height:400px;
+    display: flex;
+    
+    
+   
+    
+    }
+#pokestoop{
+    height: 100px;
+    width:100px;
+}
+    #Pokedex{ 
+        
+        width:55%;
+        height:100%;;
+        background-color:black;
+        display:none;
+        position:fixed;
+        z-index: 10;
+
+        
+    }
+
+    #pokeb{ position:fixed;
+            justify-content: center;
+        right:250px;}
+    h1{
+        text-align: center;
+        Color: white;
+    }
+
+      
+    #pokemon{
+        
+        
+        width:100%;
+        height:50%;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        background-color: white;
+       
+        
+    }
+
+    .pokedex{
+        
+       width:25%;
+
+        margin:auto;
+    }
+
+
+    #pokattrape{
+        width:55%;
+        height:100%;
+        background-color:white;
+        display:none;
+        position:fixed;
+        z-index: 10;
+        
+    }
+
+    .title{color:black;}
+
+    #evenement{ 
+        padding-top:50px;
+        background-color: white;
+        height:100%;}

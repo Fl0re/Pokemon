@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="jquery-ui/jquery-ui.min.css">
+    <link rel="stylesheet" href="style.css">
+   
+ 
+    <title>
+    </title>
+</head>
+<body>
+
+        
+    <div id="maps">
+      
+    </div>
+
+    
+    <div id="Pokedex" > 
+        <img id="pokeb" src="Pokemon/poke.png"/> 
+    
+        <h1> Pokedex </h1>
+        <div id="pokemon">
+            
+            </div>
+            <h1> Evenement </h1>
+        <div id="evenement"> 
+                
+                <form id="form">
+                        <label>
+                                <span>Type :</span>
+                                <select id="type">
+                                    <option id="Feu" value="Feu">Feu</option>
+                                    <option id="Eau" value="Eau">Eau</option>
+                                    <option id="Electrik" value="Electrik">Electrik</option>
+                                </select>
+                            </label>
+                    <label for="date_debut" > Date début </label> <input id="date_debut" type="text"><br>
+                    <label for="date_fin"   > Date fin   </label> <input id="date_fin"   type="text"><br>
+                    <input type="submit" value="ok" >
+                </form>
+                </div>
+            </div>
+
+    <img id="poke" src="Pokemon/poke.png"/>
+    <div id="div">
+        </div> 
+    <img id="pokestoop" src="Pokemon/pokestop.png"/>
+    
+    <div id="pokattrape"> </div> 
+
+   
+        <script src="jquery.js"></script>
+        <script src="jquery-ui/jquery-ui.min.js"></script>
+        <script src="App.js"></script>
+    <script src="main.js"></script>
+    <script src="Pokemon.js"></script>
+    <script src="Pokestop.js"></script>
+   
+    
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAm_rRYYoXj8HjLfNibK8Q2fVqKpqeHUrw&libraries=geometry&callback=app.initMap"
+    async defer></script>
+</body>
+</html>
